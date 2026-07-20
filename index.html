@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untuk Adek Tercinta ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',Arial,sans-serif;
+}
+
+
+body{
+
+height:100vh;
+
+overflow:hidden;
+
+background:
+linear-gradient(#020024,#090979,#ff6a88);
+
+color:white;
+
+}
+
+
+
+/* halaman buka */
+
+#opening{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+cursor:pointer;
+
+}
+
+
+#opening h1{
+
+font-size:35px;
+
+animation:pulse 1.5s infinite;
+
+}
+
+
+#opening p{
+
+margin-top:20px;
+
+font-size:18px;
+
+}
+
+
+
+@keyframes pulse{
+
+50%{
+
+transform:scale(1.1);
+
+}
+
+}
+
+
+
+
+/* isi */
+
+#isi{
+
+display:none;
+
+height:100vh;
+
+justify-content:center;
+
+align-items:center;
+
+padding:20px;
+
+}
+
+
+
+.container{
+
+max-width:500px;
+
+text-align:center;
+
+animation:muncul 2s;
+
+}
+
+
+
+@keyframes muncul{
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
+
+
+
+.photo{
+
+width:220px;
+
+height:220px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:5px solid white;
+
+box-shadow:0 0 40px white;
+
+animation:zoom 4s infinite alternate;
+
+}
+
+
+
+@keyframes zoom{
+
+from{
+
+transform:scale(1);
+
+}
+
+to{
+
+transform:scale(1.08);
+
+}
+
+}
+
+
+
+h1{
+
+margin-top:25px;
+
+font-size:32px;
+
+}
+
+
+
+#typing{
+
+margin-top:20px;
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+
+button{
+
+margin-top:25px;
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:50px;
+
+background:white;
+
+color:#ff4081;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+
+
+#surat{
+
+display:none;
+
+margin-top:25px;
+
+height:45vh;
+
+overflow:auto;
+
+font-size:16px;
+
+line-height:1.8;
+
+animation:muncul 2s;
+
+}
+
+
+
+
+.star{
+
+position:absolute;
+
+width:3px;
+
+height:3px;
+
+background:white;
+
+border-radius:50%;
+
+}
+
+
+
+.heart{
+
+position:absolute;
+
+bottom:-20px;
+
+font-size:25px;
+
+animation:naik 5s linear;
+
+}
+
+
+
+@keyframes naik{
+
+from{
+
+transform:translateY(0);
+
+opacity:1;
+
+}
+
+to{
+
+transform:translateY(-110vh);
+
+opacity:0;
+
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<audio id="musik" loop>
+
+<source src="https://www.image2url.com/r2/default/audio/1784512645221-41be5743-5614-4779-87ed-f12f42d8ce97.mp3" type="audio/mpeg">
+
+</audio>
+
+
+
+
+<div id="opening" onclick="mulai()">
+
+<h1>
+🎁 Klik Untuk Membuka 🎁
+</h1>
+
+<p>
+Ada pesan spesial dari abang ❤️
+</p>
+
+</div>
+
+
+
+
+
+<div id="isi">
+
+
+<div class="container">
+
+
+
+<img class="photo"
+src="https://raw.githubusercontent.com/ahhay-cmyk/adek/main/IMG-20260720-WA0009.jpg">
+
+
+
+<h1>
+
+🎂 Selamat Ulang Tahun
+<br>
+Adek Tercinta ❤️
+
+</h1>
+
+
+
+
+<div id="typing"></div>
+
+
+
+
+<button onclick="buka()">
+
+💌 Buka Pesan Abang
+
+</button>
+
+
+
+
+<div id="surat">
+
+
+Dek...
+
+
+<br><br>
+
+
+Selamat ulang tahun ya.
+
+
+<br><br>
+
+
+Tidak terasa waktu berjalan begitu cepat.
+Sekarang kamu sudah tumbuh menjadi seseorang
+yang memiliki keluarga dan kehidupan sendiri.
+
+
+<br><br>
+
+
+Sebagai abang, doa terbaik selalu abang berikan untukmu.
+Semoga kamu selalu diberikan kesehatan,
+umur yang panjang, rezeki yang luas,
+dan kebahagiaan bersama keluarga tercinta.
+
+
+<br><br>
+
+
+Semoga rumah tanggamu selalu diberikan keharmonisan,
+dipenuhi rasa cinta, kesabaran,
+dan keberkahan dalam setiap langkah.
+
+
+<br><br>
+
+
+Terima kasih sudah menjadi adik yang baik.
+Walaupun sekarang kita sudah memiliki jalan hidup masing-masing,
+kamu tetap menjadi adik yang selalu abang sayangi.
+
+
+<br><br>
+
+
+Semoga semua harapan dan impianmu bisa tercapai.
+
+
+<br><br>
+
+
+<strong>
+Selamat ulang tahun, Dek ❤️
+</strong>
+
+
+<br><br>
+
+
+Abang selalu mendoakan yang terbaik untukmu.
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<script>
+
+
+// bintang
+
+for(let i=0;i<80;i++){
+
+let star=document.createElement("div");
+
+star.className="star";
+
+star.style.left=Math.random()*100+"vw";
+
+star.style.top=Math.random()*100+"vh";
+
+document.body.appendChild(star);
+
+}
+
+
+
+
+const musik=document.getElementById("musik");
+
+
+musik.volume=0.5;
+
+
+
+function mulai(){
+
+musik.play();
+
+
+document.getElementById("opening").style.display="none";
+
+
+document.getElementById("isi").style.display="flex";
+
+}
+
+
+
+
+// typing
+
+let teks=
+"Semoga hari spesial ini membawa kebahagiaan, kesehatan, dan keberkahan untukmu bersama keluarga tercinta ❤️";
+
+
+let i=0;
+
+
+function ketik(){
+
+if(i<teks.length){
+
+document.getElementById("typing").innerHTML+=teks[i];
+
+i++;
+
+setTimeout(ketik,50);
+
+}
+
+}
+
+ketik();
+
+
+
+
+
+
+function buka(){
+
+
+document.getElementById("surat").style.display="block";
+
+
+for(let i=0;i<40;i++){
+
+
+let h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML="❤️";
+
+h.style.left=Math.random()*100+"vw";
+
+h.style.animationDuration=
+(3+Math.random()*4)+"s";
+
+
+document.body.appendChild(h);
+
+
+setTimeout(()=>{
+
+h.remove();
+
+},7000);
+
+
+}
+
+
+}
+
+
+</script>
+
+
+</body>
+</html>
